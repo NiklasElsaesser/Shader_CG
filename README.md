@@ -111,7 +111,7 @@ of the image.
 To represent a circular path, a combination of sine and cosine is suitable. As already
 mentioned, the sun represents the center.
 
-![Figure 1: Unit circle with sine and cosine [8]](unbekannt.png "Circle")
+![Figure 1: Unit circle with sine and cosine [8]](Images/Unbenannt.png "Circle")
 
 For this purpose, depending on the time, the y coordinate is determined with the help of the
 sine and the x coordinate with the help of the cosine, so that a unit circle is created. The planet
@@ -176,7 +176,7 @@ In this chapter, the algorithmic implementation of the theoretical principles in
 previous chapter is explained using individual examples.
 
 **The selected coordinate system**\
-![Figure 2: Shader and coordinate system [8]](Images/unbekannt1.png "shaderAndCoord")
+![Figure 2: Shader and coordinate system [8]](Images/Unbenannt1.png "shaderAndCoord")
 
 
 As you can see in the figure, the sun has been chosen as the center of the system according to
@@ -186,7 +186,7 @@ and y axis is at (0.0|0.0) and is represented by gl_FragCoord. The point (0.0|0.
 located in the upper right corner of the displayed image. However, we need to move it to the
 center which can be done with
 
-![Figure 3: Coordinates](Images/unbekannt2.png "Coord")
+![Figure 3: Coordinates](Images/Unbenannt2.png "Coord")
 
 
 is realized. "position" now represents our new origin.
@@ -194,7 +194,7 @@ is realized. "position" now represents our new origin.
 To implement some further functionalities, which will be explained later, the x coordinate of
 the mouse position is also required. This is defined with
 
-![Figure 4: Mouse position](Images/unbekannt3.png "mousePos")
+![Figure 4: Mouse position](Images/Unbenannt3.png "mousePos")
 
 determined.
 
@@ -250,7 +250,7 @@ by the blue line.
 
 **Representation of the comet**\
 
-![Figure 5: Representation of the comet](Images/unbekannt4.png "Comet")
+![Figure 5: Representation of the comet](Images/unbenannt4.png "Comet")
 
 In the figure above it can be seen that after the main body (a = 1.0) further points are
 generated to create the tail of the comet. For this the step() function is used again.
@@ -262,7 +262,7 @@ always the same for the fixed stars, because the input for the random() function
 same. For the animated stars, u_time is also used to determine the coordinates, so that the
 position of the stars changes over time.
 
-![Figure 6: Star animation](Images/unbekannt5.png "starAn")
+![Figure 6: Star animation](Images/unbenannt5.png "starAn")
 
 In the figure above, the animation is implemented. The sine function makes the color of the
 stars oscillate between the desired color and black, creating a blinking effect.
