@@ -250,7 +250,7 @@ by the blue line.
 
 **Representation of the comet**\
 
-![Figure 5: Representation of the comet](Images/unbenannt4.png "Comet")
+![Figure 5: Representation of the comet](Images/Unbenannt4.png "Comet")
 
 In the figure above it can be seen that after the main body (a = 1.0) further points are
 generated to create the tail of the comet. For this the step() function is used again.
@@ -262,7 +262,7 @@ always the same for the fixed stars, because the input for the random() function
 same. For the animated stars, u_time is also used to determine the coordinates, so that the
 position of the stars changes over time.
 
-![Figure 6: Star animation](Images/unbenannt5.png "starAn")
+![Figure 6: Star animation](Images/Unbenannt5.png "starAn")
 
 In the figure above, the animation is implemented. The sine function makes the color of the
 stars oscillate between the desired color and black, creating a blinking effect.
